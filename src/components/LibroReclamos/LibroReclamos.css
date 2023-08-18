@@ -1,0 +1,260 @@
+.react-tabs__tab-list {
+  border-bottom: 1px solid #198540;
+}
+
+.react-tabs__tab--selected {
+  border-color: #198540;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #198540 !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: #198540 !important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+}
+
+.img-heigth {
+  height: 250px;
+  width: 100%;
+}
+
+.input__validation {
+  border: red 1px solid !important;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 20px;
+}
+
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  /* margin-right: 10 px; */
+  /* margin: 8px; */
+  border: 5px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.img_logo {
+  max-width: 175px;
+  width: 80%;
+}
+
+.pdf_gif {
+  height: 16%;
+  width: 16%;
+}
+
+.group_ruc {
+  border-width: 0px 1px 1px 1px;
+}
+
+@media(max-width:550px) {
+  .vista_general {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .group_ruc_div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.texto_p {
+  font-size: 10px;
+
+}
+
+.texto_p--two {
+  font-size: 10px;
+
+}
+
+@media(max-width: 767px) {
+  .texto_p {
+    padding: 0 8rem;
+  }
+}
+
+@media(max-width: 615px) {
+  .texto_p {
+    padding: 0;
+  }
+}
+
+@media(max-width: 550px) {
+  .vis_filtrar {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: start;
+    width: 62%;
+  }
+}
+
+@media(max-width: 455px) {
+  .vis_filtrar2 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: start;
+    width: 85%;
+  }
+}
+
+@media(max-width: 375px) {
+  .vis_filtrar2 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+  }
+}
+
+@media(max-width:945px) {
+  .label_end {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media(max-width:770px) {
+  .descarga {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    height: 100%;
+
+  }
+
+  .ajuste_end {
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+  }
+}
+
+@media(max-width:776px) {
+  .ajuste_button {
+    display: flex;
+    grid-column: 1;
+    flex-direction: column;
+    justify-items: center;
+    padding-bottom: 0%;
+  }
+
+  .dif {
+    padding-bottom: 0%;
+  }
+
+  .ajuste_excel {
+    width: max-content;
+  }
+}
+
+.reclamo__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 25px;
+}
+
+.reclamo__container {
+  width: 100%;
+}
+
+.reclamo__btn {
+  background-color: var(--btn-color);
+}
+
+.text_masivo {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  line-clamp: 1;
+  max-width: 250px;
+  width: 100%;
+}
+
+.description {
+  text-overflow: hidden;
+}
+
+@media (max-width: 799px) {
+  .caja{
+    display: flex;
+    grid-column: 1;
+    gap: 5px;
+    flex-direction: column;
+    justify-items: center;
+  }
+}
+.altura_mst{
+  min-height: 100px;
+  height: 100%;
+}
+
+.altura_mst1{
+  min-height: 100px;
+  height: 100%;
+}
+
+.leyenda{
+  font-size: 0.88rem ;
+}
+
+.BG_general {
+  background-repeat: no-repeat;
+  background-image: url(../../assets/BG.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
