@@ -239,7 +239,7 @@ const PdfReclamos = ({ saveValue }) => {
                 colSpan: 2,
                 border: [true, true, false, true],
                 fontSize: 10,
-                text: "PADREO O MADRE (PARA EL CASO DE MENORES DE EDAD) :",
+                text: "PADRE O MADRE (PARA EL CASO DE MENORES DE EDAD) :",
                 bold: true,
               },
               {
